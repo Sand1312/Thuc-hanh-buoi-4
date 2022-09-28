@@ -1,7 +1,4 @@
 #include <iostream>
-#include <vector>
-using namespace std;
-#include <iostream>
 using namespace std;
 class hinhchunhat{
 private:
@@ -24,8 +21,6 @@ public:
     ~hinhchunhat(){}
 };
 class hinhvuong: virtual public hinhchunhat {
-    hinhvuong(){}
-    ~hinhvuong(){}
 };
 signed main () {
     ios_base::sync_with_stdio(false);
